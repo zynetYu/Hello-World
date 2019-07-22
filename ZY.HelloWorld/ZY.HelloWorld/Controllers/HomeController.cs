@@ -12,6 +12,7 @@ namespace ZY.HelloWorld.Controllers
     {
         public IActionResult Index()
         {
+            string test = "12323232";
             return View();
         }
 
