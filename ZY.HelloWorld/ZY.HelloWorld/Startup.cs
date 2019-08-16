@@ -6,8 +6,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ZY.EFCore.Entities;
 
 namespace ZY.HelloWorld
 {
@@ -30,6 +32,10 @@ namespace ZY.HelloWorld
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //注入上下文对象
+            services.AddDbContext<LMSData_1226Context>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("LMSData_1226Connection"))
+            );
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
