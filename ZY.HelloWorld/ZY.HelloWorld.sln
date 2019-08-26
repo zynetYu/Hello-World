@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZY.EFCore", "ZY.EFCore\ZY.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZY.RPCServer", "ZY.RPCServer\ZY.RPCServer.csproj", "{B2E0ABC4-0602-4606-AF27-3B547E7E2F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZY.RPCService", "ZY.RPCService\ZY.RPCService.csproj", "{FCFBD11C-851C-485C-A825-C9B3A879BFA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZY.RPCService", "ZY.RPCService\ZY.RPCService.csproj", "{FCFBD11C-851C-485C-A825-C9B3A879BFA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZY.RPCClient", "ZY.RPCClient\ZY.RPCClient.csproj", "{4F855BA7-F659-4A1E-97C8-1373F632FC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZY.RPCClient", "ZY.RPCClient\ZY.RPCClient.csproj", "{4F855BA7-F659-4A1E-97C8-1373F632FC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Sqlsugar", "WS.Sqlsugar\WS.Sqlsugar.csproj", "{36CE1361-3ED4-4BCB-A7BA-3249981A6A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZY.Service", "ZY.Service\ZY.Service.csproj", "{516DA291-8344-457E-A9B8-86DDF13D3A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{4F855BA7-F659-4A1E-97C8-1373F632FC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F855BA7-F659-4A1E-97C8-1373F632FC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F855BA7-F659-4A1E-97C8-1373F632FC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CE1361-3ED4-4BCB-A7BA-3249981A6A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CE1361-3ED4-4BCB-A7BA-3249981A6A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CE1361-3ED4-4BCB-A7BA-3249981A6A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CE1361-3ED4-4BCB-A7BA-3249981A6A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516DA291-8344-457E-A9B8-86DDF13D3A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516DA291-8344-457E-A9B8-86DDF13D3A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516DA291-8344-457E-A9B8-86DDF13D3A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516DA291-8344-457E-A9B8-86DDF13D3A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

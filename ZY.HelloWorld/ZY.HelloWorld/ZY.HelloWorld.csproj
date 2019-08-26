@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WS.Sqlsugar\WS.Sqlsugar.csproj" />
     <ProjectReference Include="..\ZY.EFCore\ZY.EFCore.csproj" />
     <ProjectReference Include="..\ZY.RPCServer\ZY.RPCServer.csproj" />
   </ItemGroup>
