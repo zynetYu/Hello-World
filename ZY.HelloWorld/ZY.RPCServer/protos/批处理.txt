@@ -1,0 +1,4 @@
+﻿生成.cs文件批处理执行：
+protoc.exe -I=. --csharp_out=. --grpc_out=. --plugin=protoc-gen-grpc=grpc_csharp_plugin.exe  helloworld.proto
+注意事项：
+protoc.exe文件的路径中不能有汉字，否者会出现找不到文件路径的错误
